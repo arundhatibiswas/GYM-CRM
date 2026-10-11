@@ -267,24 +267,6 @@ It requires a production build and the expected database administrator configura
 
 Fixture records stay out of the configured project database.
 
-## 🗂️ A quick tour of the repository
-
-```text
-Gym_crm/
-├── src/
-│   ├── app/                 # Pages and API routes
-│   ├── components/          # Login, role workspaces and member portal
-│   └── lib/
-│       ├── contracts.ts     # Shared types and formatting
-│       └── server/          # Authentication, data access and business rules
-├── website/                 # Public landing page and registration experience
-├── db/
-│   └── migrations/          # Versioned PostgreSQL schema changes
-├── scripts/                 # Migration, provisioning and verification tools
-└── DOCUMENTATION/
-    └── output/              # Project and database design document
-```
-
 Read the [database notes](db/README.md) or explore the [project and database design document](DOCUMENTATION/output/GYM_CRM_Project_and_Database_Design.docx).
 
 ## 🏁 What this case study demonstrates
